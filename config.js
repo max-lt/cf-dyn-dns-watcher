@@ -2,7 +2,7 @@ const conf = {cf: {target: {}}};
 
 const env = process.env;
 
-conf.interval = env.INTERVAL && parseInt(env.INTERVAL);
+conf.interval = env.INTERVAL && parseInt(env.INTERVAL) || 10 * 60 * 1000;
 
 conf.cf.email = env.CF_EMAIL;
 conf.cf.zone = env.CF_ZONE;
