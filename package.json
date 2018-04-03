@@ -1,0 +1,14 @@
+{
+  "name": "cf-dyn-dns-watcher",
+  "version": "1.0.0",
+  "description": "Cloudflare dyn dns watcher",
+  "author": "maxx-t",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "cloudflare": "^2.4.1",
+    "joi": "^13.1.2"
+  }
+}

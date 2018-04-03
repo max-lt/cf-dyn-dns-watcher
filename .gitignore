@@ -1,0 +1,8 @@
+node_modules/
+.idea
+debug*.txt
+*debug.log
+*.zip
+*.tar.*
+data/
+*.no-commit*

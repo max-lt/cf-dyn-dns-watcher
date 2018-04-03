@@ -1,0 +1,10 @@
+node_modules/
+.idea
+debug*.txt
+*debug.log
+*.zip
+*.tar.*
+data/
+example/
+*.no-commit*
+*.sh

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+docker run \
+  --memory=200M \
+  -e INTERVAL=600000 \
+  -e CF_EMAIL=${CF_EMAIL} \
+  -e CF_ZONE=${CF_ZONE} \
+  -e CF_KEY=${CF_KEY} \
+  -e CF_TARGET_ID=${CF_TARGET_ID} \
+  -e CF_TARGET_TYPE=${CF_TARGET_TYPE} \
+  -e CF_TARGET_NAME=${CF_TARGET_NAME} \
+  --rm cf-dyn-dns-watcher
+
