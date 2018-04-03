@@ -8,3 +8,6 @@ data/
 example/
 *.no-commit*
 *.sh
+build
+start
+Dockerfile

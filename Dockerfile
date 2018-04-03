@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 # Copy package.json
 COPY package.json /usr/src/app/
 
-# Install app dependencies & build tools & cleanup (keep a light layer)
+# Install app dependencies
 RUN npm install --silent --production
 
 # Bundle app source
