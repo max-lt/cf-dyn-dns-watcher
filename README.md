@@ -1,7 +1,8 @@
 # Cloudflare dyn dns updater
 
-environment variables to pass to the container:
-- INTERVAL=number in millisecond: interval to check your ip 
+Environment variables to pass to the container:
+- VERBOSE=`true` or `false` (default `false`)
+- INTERVAL=number in millisecond: interval to check your ip
 - CF_EMAIL= your cloudflare email
 - CF_ZONE= cloudflare targeted zone
 - CF_KEY= your cloudflare api key

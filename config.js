@@ -2,6 +2,8 @@ const conf = {cf: {target: {}}};
 
 const env = process.env;
 
+conf.verbose = env.VERBOSE === 'true';
+
 conf.interval = env.INTERVAL && parseInt(env.INTERVAL) || 10 * 60 * 1000;
 
 conf.cf.email = env.CF_EMAIL;
